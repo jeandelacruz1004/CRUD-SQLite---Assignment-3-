@@ -1,0 +1,25 @@
+<html>
+
+<head>
+
+    <title>CRUDLIST</title>
+    <link href="{{url_for('static', filename = 'css/bootstrap.min.css')}}" rel="stylesheet">
+<link rel="shortcut icon" href="{{url_for('static', filename = 'list.png' )}}">
+
+
+</head>
+
+<body>
+
+
+<div class="container">
+
+    <div class="well text-center">
+
+                <h2> <button type="button" onclick="window.location.href='{{ url_for( 'Index' ) }}';">Add Student Data </button></h2>
+
+                <h2> <button type="button" onclick="window.location.href='{{ url_for( 'Index2' ) }}';">Add Course Data </button></h2>
+                <h2> <button type="button" onclick="window.location.href='{{ url_for( 'Index3' ) }}';">View General Data </button></h2>
+
+
+    </div>
